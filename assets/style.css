@@ -514,12 +514,21 @@
     color: #E0E0E0;
     margin-top: 10px;
     box-shadow: 0px 4px 4px 0px #00000040;
+    transition: all 0.5s;
+}
+
+#section_4__form_button:hover {
+    box-shadow: 4px 4px 4px 0px #000;
 }
 
 .section_4__form__checkbox input {
     width: 25px;
     height: 25px;
     margin-right: 10px;
+}
+
+#section_4__form__checkbox_checkmark {
+    background-color: #fff;
 }
 
 .section_4__form__checkbox label {
@@ -537,4 +546,57 @@
     width: 350px;
     display: flex;
     align-items: center;    
+}
+
+
+/* section_4 */
+
+
+.section_5 {
+    height: 1200px;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+
+.container_6 {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section_5__textTitle {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section_5__commonblock {
+    background-color: #E7E7E7;
+    width: 996px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.section_5__commonblock_text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section_5__commonblock_text p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.section_5__commonblock_comments {
+    display: flex;
+    gap: 20px;
 }
