@@ -518,7 +518,7 @@
 }
 
 #section_4__form_button:hover {
-    box-shadow: 4px 4px 4px 0px #000;
+    background-color: #4169E1;
 }
 
 .section_4__form__checkbox input {
@@ -627,7 +627,6 @@
 }
 
 .section_6__commonblock {
-    border: 1px solid black;
     width: 1400px;
     height: 600px;
     display: flex;
@@ -635,7 +634,101 @@
 }
 
 .section_6__commonblock2 {
-    border: 1px solid black;
     height: 100%;
     width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section_6__commonblock2_wrapper {
+    width: 100%;
+    height: 380px;
+    position: relative;
+}
+
+.section_6__commonblock2_wrapperNumber {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 700;
+    color: #352E6F;
+}
+
+
+.section_6__commonblock2_question {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.section_6__commonblock2_question p {
+    font-size: 20px;
+    font-weight: 400;   
+    color: #4E4E50;
+}
+
+
+.section_6__commonblock2_button {
+    width: 508px;
+    height: 80px;
+    background-color: #342D6F;
+    color: #fff;
+    border-radius: 40px;
+    transition: all 1s;
+    border-color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section_6__commonblock2_button:hover {
+    background-color: #4169E1;
+}
+
+.section_6__commonblock2_conditions {
+    width: 508px;
+    height: 370px;
+    background-color: #E7E7E7;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section_6__commonblock2_conditions_above {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_6__commonblock2_conditions_aboveText {
+    align-self: start;  
+}
+
+.section_6__commonblock2_conditions_aboveText h4 {
+    font-size: 25px;
+}
+
+.section_6__commonblock2_conditions_aboveText p {
+    margin-top: 25px;
+}
+
+.section_6__commonblock2_conditions_under {
+    width: 460px;
+    display: flex;
+    justify-content: start;
+}
+
+.section_6__commonblock2_conditions_underPrice {
+    color: #352E6F;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section_6__commonblock2_conditions_under1 {
+    width: 400px;
+    display: flex;
+    justify-content: start;
 }
