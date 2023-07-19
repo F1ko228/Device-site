@@ -600,3 +600,42 @@
     display: flex;
     gap: 20px;
 }
+
+/* section_5 */
+
+.section_6 {
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_7 {
+    height: 100%;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_7 h4 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section_6__commonblock {
+    border: 1px solid black;
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_6__commonblock2 {
+    border: 1px solid black;
+    height: 100%;
+    width: 510px;
+}
