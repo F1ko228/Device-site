@@ -611,6 +611,7 @@
     height: 1600px;
     display: flex;
     justify-content: center;
+    position: absolute;
 }
 
 .container_7 {
@@ -888,13 +889,13 @@
 /* modal window */
 
 .modal_wrapper {
-    width: 100%;
+    width: 99vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, .3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
     display: none;
 }
 
