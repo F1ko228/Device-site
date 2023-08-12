@@ -741,9 +741,9 @@
 .section_7 {
     height: 545px;
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: #E0E0E0;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .container_8 {
@@ -751,7 +751,7 @@
     width: 1400px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .section_7__form h4 {
@@ -818,12 +818,10 @@
     align-items: center;    
 }
 
-
-
 /* section_8 */
 
 .section_8 {
-    background-color: #E0E0E0;
+    background-color: #F5F5F5;
     width: 100%;
     height: 545px;
     display: flex;
@@ -850,42 +848,6 @@
     align-items: center;
 }
 
-/* footer */
-
-.footer {
-    height: 426px;
-    width: 100%;
-    background-color: #F5F5F5;
-    display: flex;
-    justify-content: center;
-}
-
-.container_10 {
-    height: 100%;
-    width: 1400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer__text h4 {
-    font-size: 30px;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-
-.footer__text_adress {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 15px;
-}
-
-.footer__text_phone {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 25px;
-}
-
 /* modal window */
 
 .modal_wrapper {
@@ -893,7 +855,7 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, .3);
     z-index: 1;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: none;
@@ -989,4 +951,48 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 1420px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container_8__image {
+        width: 50%;
+        height: 70%;
+    }
+
+    .section_6__commonblock {
+        width: 1400px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+    .section_6 {
+        background-color: #E0E0E0;
+        width: 100%;
+        height: 2000px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
+    .container_7 {
+        padding-top: 10px;
+        height: 100%;
+        width: 1400px;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+}    
 

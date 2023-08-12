@@ -1,4 +1,9 @@
-document.getElementById("section_6__ModalWindow_btn").addEventListener('click', function() {
-    let value = document.querySelector("#section_6__modalWindow");
-    value.classList.add('open');
-})
+const buttons = document.getElementsByClassName("open_model");
+console.log(buttons)
+for(const button of buttons )  { 
+    console.log(button)
+    button.addEventListener("click", function() {
+        document.getElementsByClassName("modal_wrapper").classList.add("open");
+    });
+    };
+

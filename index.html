@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
      rel="stylesheet">
+     <script src="assets/main.js"></script>
 </head>
 <body>
-
     <header class="header">
         <div class="container_1">
            <div class="header__item">
@@ -203,6 +203,40 @@
             </div>
         </div>  <!-- container_6 -->
     </section>  <!-- section_5 -->
+
+    <section class="section_7">
+        <div class="container_8">
+            <div class="section_7__form">
+                <h4>Нет возможности приехать<br>
+                    к нам в сервис?</h4>
+                <p>Вызовите мастера по ремонту телефона в офис или<br>
+                   на дом прямо сейчас или к удобному времени</p>
+                   <form class="section_7__form">
+                        <div class="section_7__form_text">Введите Ваш телефон</div>
+                        <input type="text" name="number" required placeholder="+7(___)___-__-__"><br>
+                        <input id="section_7__form_button" value="Вызвать мастера" type="submit"><br>
+                        <div class="section_7__form__checkbox">
+                            <input type="checkbox" required id="section_7__form__checkbox_checkmark">
+                            <label>Я принимаю условия <a target="_blank" href="https://avrora-class.ru/uslovia/">
+                            передачи информации</a></label>
+                        </div>
+                </form>
+            </div>
+            <img src="assets/images/car.png" alt="carWithMan" class="container_8__image">
+        </div>  <!-- container_8 -->
+    </section> <!-- section_7 -->
+
+    <section class="section_8">
+        <div class="container_9">
+            <p>Процесс нашей работы</p>
+            <div class="section_8__imagesWorking">
+                <img src="assets/images/work1.png" alt="working">
+                <img src="assets/images/work2.png" alt="working">
+                <img src="assets/images/work3.png" alt="working">
+            </div>
+        </div>  <!-- container_9 -->                    
+     </section> <!-- section_8 -->
+    </footer> <!-- footer -->
  
     <section class="section_6">
 
@@ -214,7 +248,7 @@
                         <div class="modal_window__form_text">Введите Ваш телефон</div>
                         <input type="text" name="number" required placeholder="+7(___)___-__-__"><br>
                         <div class="modal_window__form_text">Опишите вашу проблему</div>
-                        <textarea class="modal_window__form_textarea">
+                        <textarea class="modal_window__form_textarea" required>
 
                         </textarea><br>
                         <input id="modal_window__form_button" value="Отправить" type="submit"><br>
@@ -257,7 +291,7 @@
                         <img src="assets/images/question.png" alt="quesiton">
                         <p>У меня такая же проблема<br> Что мне делать?</p>
                     </div>
-                    <button id="section_6__ModalWindow_btn" class="section_6__commonblock2_button">
+                    <button id="section_6__ModalWindow_btn" class="section_6__commonblock2_button open_model">
                         Заказать бесплатную диагностику
                     </button>
                 </div>
@@ -349,62 +383,8 @@
                     </button>
                 </div>
             </div>
-         </div> <!-- container_7 -->
-     </section> <!-- section_6 -->
-
-     <section class="section_7">
-        <div class="container_8">
-            <div class="section_7__form">
-                <h4>Нет возможности приехать<br>
-                    к нам в сервис?</h4>
-                <p>Вызовите мастера по ремонту телефона в офис или<br>
-                   на дом прямо сейчас или к удобному времени</p>
-                   <form class="section_7__form">
-                        <div class="section_7__form_text">Введите Ваш телефон</div>
-                        <input type="text" name="number" required placeholder="+7(___)___-__-__"><br>
-                        <input id="section_7__form_button" value="Вызвать мастера" type="submit"><br>
-                        <div class="section_7__form__checkbox">
-                            <input type="checkbox" required id="section_7__form__checkbox_checkmark">
-                            <label>Я принимаю условия <a target="_blank" href="https://avrora-class.ru/uslovia/">
-                            передачи информации</a></label>
-                        </div>
-                </form>
-            </div>
-            <img src="assets/images/car.png" alt="carWithMan">
-        </div>  <!-- container_8 -->
-     </section> <!-- section_7 -->
-
-     <section class="section_8">
-        <div class="container_9">
-            <p>Процесс нашей работы</p>
-            <div class="section_8__imagesWorking">
-                <img src="assets/images/work1.png" alt="working">
-                <img src="assets/images/work2.png" alt="working">
-                <img src="assets/images/work3.png" alt="working">
-            </div>
-        </div>  <!-- container_9 -->                    
-     </section> <!-- section_8 -->
-
-     <footer class="footer">
-        <div class="container_10">
-            <div class="footer__text">
-                <h4>Остались вопросы?<br>
-                    Ждем вас в нашем сервисе</h4>
-                <p class="footer__text_adress">г. Верхняя Пышма, ул. Кривоусова 18Д</p>
-                <p class="footer__text_phone">+7 (922) 192-80-60</p>
-                <div class="footer__icons">
-                    <a target="_blank" href="https://vk.com/feed"><img src="assets/images/VK.png" alt="VK"></a>
-                    <a target="_blank" href="https://web.telegram.org/k/#@Match_TV"><img src="assets/images/Telegram.png" alt="Telegram"></a>
-                    <a target="_blank" href="https://www.whatsapp.com/"><img src="assets/images/whatsapp.png" alt="What's app"></a>
-                </div>
-            </div>
-            <a target="_blank" href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9A%D1%80%D0%B8%D0%B2%D0%BE%D1%83%D1%81%D0%BE%D0%B2%D0%B0,+18%D0%94,+%D0%92%D0%B5%D1%80%D1%85%D0%BD%D1%8F%D1%8F+%D0%9F%D1%8B%D1%88%D0%BC%D0%B0,+%D0%A1%D0%B2%D0%B5%D1%80%D0%B4%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+624090/data=!4m2!3m1!1s0x43c17379858dfee3:0xbdfab78b0cd24ec6?sa=X&ved=2ahUKEwimwITan4aAAxWuGxAIHRsQAmQQ8gF6BAgPEAA&ved=2ahUKEwimwITan4aAAxWuGxAIHRsQAmQQ8gF6BAgSEAI">
-               <img src="assets/images/map2.png" alt="map"></a>
-        </div>
-     </footer> <!-- footer -->
-
-
-     <script src="assets/main.js"></script>
+        </div> <!-- container_7 -->
+    </section> <!-- section_6 -->
 </body>
 </html>
 
